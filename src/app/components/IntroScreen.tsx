@@ -72,7 +72,7 @@ export default function IntroScreen() {
           className="text-center mb-12"
         >
           <h1 className="text-6xl font-bold text-[#2F5C8F] mb-4 drop-shadow-lg" style={{ WebkitTextStroke: '1px #1B365C' }}>
-            Dr. Dino's Clinic!
+            Dr. Dino&apos;s Clinic!
           </h1>
           <p className="text-2xl text-[#2F5C8F] font-medium">Your friendly health companion</p>
         </motion.div>

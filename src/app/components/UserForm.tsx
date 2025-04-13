@@ -75,7 +75,7 @@ export default function UserForm() {
           
           <div className="space-y-6">
             <div>
-              <label className="block text-[#2F5C8F] mb-3 text-xl font-medium">What's your name?</label>
+              <label className="block text-[#2F5C8F] mb-3 text-xl font-medium">What&apos;s your name?</label>
               <input
                 type="text"
                 required
@@ -134,7 +134,7 @@ export default function UserForm() {
             type="submit"
             className="w-full mt-10 bg-[#2F5C8F] text-white py-5 rounded-2xl text-2xl font-bold shadow-lg border-2 border-[#1B365C] hover:bg-[#1B365C] transition-colors"
           >
-            Let's Begin! 🌟
+            Let&apos;s Begin! 🌟
           </motion.button>
         </motion.form>
       </div>
