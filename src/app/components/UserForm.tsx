@@ -79,7 +79,7 @@ export default function UserForm() {
               <input
                 type="text"
                 required
-                className="w-full px-6 py-4 text-lg border-4 border-[#2F5C8F]/30 rounded-2xl focus:outline-none focus:border-[#2F5C8F] transition-colors bg-white/80"
+                className="w-full px-6 py-4 text-lg border-4 border-[#2F5C8F]/30 rounded-2xl focus:outline-none focus:border-[#2F5C8F] transition-colors bg-white/80 text-[#2F5C8F] placeholder-[#2F5C8F]/50"
                 value={userData.name}
                 onChange={(e) => setUserData({ ...userData, name: e.target.value })}
                 placeholder="Your awesome name"
@@ -93,7 +93,7 @@ export default function UserForm() {
                 required
                 min="1"
                 max="120"
-                className="w-full px-6 py-4 text-lg border-4 border-[#2F5C8F]/30 rounded-2xl focus:outline-none focus:border-[#2F5C8F] transition-colors bg-white/80"
+                className="w-full px-6 py-4 text-lg border-4 border-[#2F5C8F]/30 rounded-2xl focus:outline-none focus:border-[#2F5C8F] transition-colors bg-white/80 text-[#2F5C8F] placeholder-[#2F5C8F]/50"
                 value={userData.age}
                 onChange={(e) => setUserData({ ...userData, age: e.target.value })}
                 placeholder="Your age"
@@ -104,11 +104,11 @@ export default function UserForm() {
               <label className="block text-[#2F5C8F] mb-3 text-xl font-medium">Are you a...</label>
               <select
                 required
-                className="w-full px-6 py-4 text-lg border-4 border-[#2F5C8F]/30 rounded-2xl focus:outline-none focus:border-[#2F5C8F] transition-colors bg-white/80"
+                className="w-full px-6 py-4 text-lg border-4 border-[#2F5C8F]/30 rounded-2xl focus:outline-none focus:border-[#2F5C8F] transition-colors bg-white/80 text-[#2F5C8F] placeholder-[#2F5C8F]/50"
                 value={userData.gender}
                 onChange={(e) => setUserData({ ...userData, gender: e.target.value })}
               >
-                <option value="">Choose one</option>
+                <option value="" className="text-[#2F5C8F]/50">Choose one</option>
                 <option value="boy">Boy</option>
                 <option value="girl">Girl</option>
                 <option value="other">Other</option>
@@ -120,7 +120,7 @@ export default function UserForm() {
               <input
                 type="text"
                 required
-                className="w-full px-6 py-4 text-lg border-4 border-[#2F5C8F]/30 rounded-2xl focus:outline-none focus:border-[#2F5C8F] transition-colors bg-white/80"
+                className="w-full px-6 py-4 text-lg border-4 border-[#2F5C8F]/30 rounded-2xl focus:outline-none focus:border-[#2F5C8F] transition-colors bg-white/80 text-[#2F5C8F] placeholder-[#2F5C8F]/50"
                 value={userData.location}
                 onChange={(e) => setUserData({ ...userData, location: e.target.value })}
                 placeholder="Your city"
