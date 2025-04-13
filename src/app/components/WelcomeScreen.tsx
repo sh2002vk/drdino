@@ -70,8 +70,8 @@ export default function WelcomeScreen() {
           >
             <h2 className="text-4xl font-bold text-[#2F5C8F] mb-6">Hi there! 👋</h2>
             <p className="text-2xl text-[#2F5C8F] leading-relaxed mb-8">
-              My name is Dr. Dino, welcome to my clinic! I'm here to help you stay healthy and fit!
-              Before we start, I'd love to know a little bit about you so I can help you better.
+              My name is Dr. Dino, welcome to my clinic! I am here to help you stay healthy and fit!
+              Before we start, I would love to know a little bit about you so I can help you better.
             </p>
             <motion.button
               onClick={() => router.push('/user-form')}
